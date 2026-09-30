@@ -267,37 +267,21 @@ para conservar la procedencia de la definición. El catálogo de requisitos podr
 enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente | 
-
 | --- | --- | --- | 
-
 | Requisitos de negocio | Describen los objetivos estratégicos que la organización espera alcanzar con el sistema, marcando el «por qué» y el valor o beneficios que justifican su desarrollo. | Apartado 1 | 
-
 | Objetivo de negocio | Meta cuantificable y medible que la organización busca alcanzar con el desarrollo de un sistema o proyecto para definir su propósito y valor estratégico. | Apartado 1.1 | 
-
 | Visión o propuesta de valor | Declaración clara y concisa que describe los beneficios únicos o el valor que el sistema Simbiosis ofrece a sus usuarios o pacientes con EII. | Apartado 1.2 | 
-
 | Criterios de éxito | Indicadores de calidad y métricas de validación que indican cómo se evaluará el resultado del proyecto (usuarios activos, satisfacción, contribución de profesionales). | Apartado 1.3 | 
-
 | Riesgos de negocio | Posibles problemas que podrían comprometer el éxito del proyecto (como bajo nivel de adopción o falta de participación), utilizados para planificar su gestión. | Apartado 1.4 | 
-
 | Supuestos | Condiciones que se consideran ciertas en la fase inicial del proyecto, aunque no estén completamente verificadas. | Apartado 1.5 | 
-
 | Dependencias | Factores externos de los que el proyecto depende para su correcto funcionamiento o desarrollo. | Apartado 1.5 | 
-
 | Alcance | Límites del proyecto que establecen qué objetivos, necesidades y características se incluyen y cuáles quedan fuera, sirviendo de base para la planificación. | Apartado 2.1 | 
-
 | Módulo funcional | Bloque de alto nivel que agrupa funcionalidades relacionadas del sistema para orientar el diseño, la planificación y el desarrollo (ej. Gestión de usuarios, Foro, Recetas). | Apartado 2.2 | 
-
 | Entregables | Productos finales del proyecto (como la plataforma web funcional o la documentación) que se entregan al cliente o usuarios. | Apartado 2.3 | 
-
 | Restricciones | Límites fijos de tiempo, presupuesto o recursos que marcan el contexto de planificación del proyecto. | Apartado 2.4 | 
-
 | Requisitos legales y normativos (NFR) | Obligaciones impuestas por leyes o normativas (como el RGPD y la LOPDGDD) aplicables al tratamiento de datos de salud y seguridad. | Apartado 2.5 | 
-
 | Parte interesada (Stakeholder) | Cualquier persona, grupo u organización que tiene interés, influencia o se ve afectado por el proyecto (pacientes, cuidadores, médicos, coordinadores). | Apartado 3.1 | 
-
 | Controladores | Dimensiones prioritarias del proyecto que imponen condiciones estrictas y no negociables sobre las características o la calidad. | Apartado 3.2 | 
-
 | Parámetro libre | Dimensión del proyecto que cuenta con flexibilidad para ajustar roles, recursos o esfuerzos según las necesidades de cada fase. | Apartado 3.2 | 
 
 ## 10. Modelos de análisis
