@@ -243,25 +243,26 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
-**Preguntas abiertas:** [Registra solo las cuestiones necesarias que las fuentes no resuelvan. Si no hay preguntas para el alcance descrito, indícalo.]
+**Preguntas abiertas:** ¿Qué tipo de mensaje de confirmación se envía?
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
-**Identificador y nombre del caso de uso:** [Indica el caso.]
+**Identificador y nombre del caso de uso:** UC-21 — Buscar recetas
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** Buscar recetas mediante los criterios seleccionados, consultar los resultados y acceder al detalle de una receta.
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** Usuario registrado.
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** Tener la sesión iniciada.
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Inicio:** La persona quiere localizar una receta que cumpla sus criterios y consultar su detalle.
 
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal de éxito:**
+1. El sistema busca las recetas publicadas y validadas que cumplan todos los criterios, las muestra por orden de publicación (las más recientes primero) incluyendo para cada receta: título, imagen,  calificación promedio y descripción breve
 
 **Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+**Postcondiciones:** El caso de usuario termina con éxito.
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
