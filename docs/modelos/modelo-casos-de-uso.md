@@ -223,21 +223,23 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 ### 6.1 Descripción detallada UC-05 — Actualizar perfil
 
-**Identificador y nombre del caso de uso:** [Indica el caso.]
+**Identificador y nombre del caso de uso:** UC-05 — Actualizar perfil
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** Modificar los datos personales y las preferencias de la cuenta propia.
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** Usuario registrado.
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** El usuario debe estar registrado.
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Inicio:** El usuario quiere actualizar su propio perfil y conservar los cambios.
 
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal de éxito:** El usuario actualiza su propio perfil y conserva los cambios.
 
-**Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
+**Extensiones (flujos alternativos):** Se produce un error al guardar el perfil actualizado.
+                                       El usuario introduce un dato erróneo.
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+**Postcondiciones:** Tras completar el caso de uso con éxito se muestra un mensaje y se actualiza el perfil.
+                     En caso contrario se muestra un mensaje de error y se da la opción de volver a intentarlo.
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
