@@ -3,7 +3,7 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Fecha | [dd/mm/aaaa] |
+| Fecha | [28/10/2026] |
 | Versión | [Versión de trabajo] |
 | Estado | Borrador |
 
@@ -15,26 +15,26 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como usuario, quiero buscar recetas por nombre, incluyendo ingredientes o excluyendo ingredientes, para obtener unas dietas, si las hay, que se ajusten a mis necesidades.
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
 ## Justificación de la división
 
-[Justificación de los resultados útiles que separa la división.]
+Según recoge el acta de acuerdos, se debe seleccionar al menos un criterio, por lo que no tiene sentido hacer una historia que combine las 3 funcionalidades.
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** Buscar mediante una palabra o frase
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario, quiero poder buscar recetas mediante palabras o frases, para encontrar una receta que se adecue a lo que deseo encontrar.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-085; acta, 2. Criterios de búsqueda.
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que se introduce una palabra o frase, cuando se muestran los resultados de búsqueda, entonces una frase debe aparecer seguida y en el mismo orden.
+- **CA-02.** Dado que se introduce una palabra o frase con mayúsculas o acentos, cuando se muestran los resultados de búsqueda, entonces se aprecia que no distingue entre mayúsculas o minúsculas y acentos.
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-02
